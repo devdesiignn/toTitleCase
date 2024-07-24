@@ -19,7 +19,7 @@ npm install @devdesiignn/to-title-case
 import "@devdesiignn/to-title-case";
 
 const sentence = "the quick brown fox jumps over the lazy dog";
-console.log(sentence.toTitleCase())F
+console.log(sentence.toTitleCase())
 // The Quick Brown Fox Jumps Over The Lazy Dog 
 
 ---
