@@ -9,14 +9,14 @@ Follow this project's author, [Muiz Haruna](https://github.com/devdesiignn/), an
 Install with [npm](https://www.npmjs.com/)
 
 ```sh
-npm install toTitleCase
+npm install @devdesiignn/to-title-case
 ```
 
 ## Usage
 
 ```js
 
-import "@devdesiignn/toTitleCase";
+import "@devdesiignn/to-title-case";
 
 const sentence = "the quick brown fox jumps over the lazy dog";
 console.log(sentence.toTitleCase())F
