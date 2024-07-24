@@ -1,6 +1,6 @@
 {
   "name": "@devdesiignn/to-title-case",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -21,7 +21,7 @@
   "author": "DEVDESIIGNN",
   "license": "MIT",
   "description": "Capitalize each word in your sentence.",
-  "dependencies": {
+  "devDependencies": {
     "tsup": "^8.2.2",
     "typescript": "^5.5.4"
   }
