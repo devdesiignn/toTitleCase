@@ -16,7 +16,7 @@ npm install toTitleCase
 
 ```js
 
-import "toTitleCase";
+import "@devdesiignn/toTitleCase";
 
 const sentence = "the quick brown fox jumps over the lazy dog";
 console.log(sentence.toTitleCase())F
