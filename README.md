@@ -15,34 +15,19 @@ npm install toTitleCase
 ## Usage
 
 ```js
-import { toTitleCase } from "use-nigeria-location";
 
-console.log(useAllStatesInfo())
-/* => 
-[{
-  name: "Abia",
-  capital: "Umuahia",
-  id: "2e14a7ed-349a-44f6-9e12-abfec3e5f6ed",
-  lgas: [
-  { name: "Aba South", id: "4c840cb1-8f58-40d3-9aff-5a3b77fdba71" },
+import "toTitleCase";
 
-  ... ],
-  land_mass: "6,320 km²",
-  universities: 
-  [
-    {
-      name: "Abia State University",
-      location: "Uturu",
-      type: "State",
-    },
+const sentence = "the quick brown fox jumps over the lazy dog";
+console.log(sentence.toTitleCase())F
+// The Quick Brown Fox Jumps Over The Lazy Dog 
 
-  ... ],
-  airports: [],
-  geopolitical_zone: "South East",
-}, 
+---
 
-... ]
-*/
+const sentence = "TYPESCRIPT ADDS TYPE SAFETY TO JAVASCRIPT";
+console.log(sentence.toTitleCase())
+// Typescript Adds Type Safety To Javascript
+
 ```
 
 ## Author
